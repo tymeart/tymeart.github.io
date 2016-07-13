@@ -6,13 +6,19 @@ body {
   justify-content: center;
 }
 
-.flex-container {
-  /*margin: 0 auto;*/
+.container {
   width: 500px;
-  /*display: flex;
-  align-items: center;
-  justify-content: center;*/
   background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 4px;
+}
+
+h1 {
+  text-align: center;
 }
 
 h1,
@@ -21,10 +27,8 @@ p {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-}
-
 ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
