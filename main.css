@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-size: 100%;
 }
 
 .flex-container {
@@ -19,22 +20,32 @@ body {
   width: 500px;
   background-color: #eee;
   padding: 20px;
+  border-radius: 14px;
 }
 
 a {
   text-decoration: none;
-  padding: 10px;
-  margin: 4px;
+  padding: 8px;
+  margin: 8px;
 }
 
 h1 {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
 }
 
 h1,
 p {
   padding: 10px;
   margin: 0;
+}
+
+p,
+ul {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4em;
 }
 
 ul {
