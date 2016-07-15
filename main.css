@@ -18,6 +18,7 @@ body {
 .container {
   width: 500px;
   background-color: #eee;
+  padding: 20px;
 }
 
 a {
