@@ -23,10 +23,20 @@ body {
   border-radius: 14px;
 }
 
+.social-media {
+  border-top: 1px solid #999;
+}
+
 a {
   text-decoration: none;
+  text-transform: lowercase;
   padding: 8px;
   margin: 8px;
+}
+
+a:active,
+a:visited {
+
 }
 
 h1 {
@@ -40,6 +50,7 @@ h1,
 p {
   padding: 10px;
   margin: 0;
+  margin-bottom: 5px;
 }
 
 p,
