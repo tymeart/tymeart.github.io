@@ -6,10 +6,8 @@ body {
 
 .flex-container {
   /*fallback for old browsers*/
-  width: 100%;
   height: 100%;
   /*viewport units*/
-  width: 100vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,11 +36,6 @@ a {
   text-transform: lowercase;
   padding: 8px;
   margin: 8px;
-}
-
-a:active,
-a:visited {
-
 }
 
 h1,
