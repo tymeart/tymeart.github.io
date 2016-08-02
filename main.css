@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  max-width: 500px;
   background-color: #eee;
   padding: 20px;
   border-radius: 14px;
@@ -70,4 +70,22 @@ ul {
           justify-content: center;
   padding: 0;
   margin-bottom: 0;
+}
+
+@media only screen
+and (max-width:540px) {
+  .social-media ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .container {
+    border-radius: 0px;
+  }
 }
