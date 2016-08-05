@@ -95,4 +95,8 @@ and (max-width:540px) {
   .container {
     border-radius: 0px;
   }
+
+  p {
+    font-size: 0.9em;
+  }
 }
