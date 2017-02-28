@@ -44,11 +44,12 @@ nav li {
 
 .projects .container ul {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .projects .container li {
-  width: 33%;
+  display: flex;
 }
 
 figure {
