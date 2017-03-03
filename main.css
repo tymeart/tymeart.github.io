@@ -74,10 +74,11 @@ nav li {
 
 .project__title {
   font-size: 20px;
+  text-align: right;
 }
 
 .project__description {
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 20px 10px;
 }
 
 .social-media ul {
