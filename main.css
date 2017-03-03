@@ -12,6 +12,10 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h2 {
   text-align: center;
   padding-bottom: 30px;
