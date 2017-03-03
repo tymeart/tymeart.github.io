@@ -48,9 +48,12 @@ nav li {
   padding: 20px;
 }
 
-.about .container {
+.container {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .projects .container ul {
