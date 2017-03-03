@@ -57,7 +57,7 @@ nav li {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .projects .container ul {
@@ -75,10 +75,12 @@ nav li {
 .project__title {
   font-size: 20px;
   text-align: right;
+  width: 40%;
 }
 
 .project__description {
   padding: 0 10px 20px 10px;
+  width: 60%;
 }
 
 .social-media ul {
