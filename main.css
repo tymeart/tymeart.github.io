@@ -43,6 +43,10 @@ h2 a {
   color: #2C3131;
 }
 
+h2 a:hover {
+  text-decoration: none;
+}
+
 section {
   min-height: 400px;
 }
