@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h2 a {
   color: #2C3131;
 }
