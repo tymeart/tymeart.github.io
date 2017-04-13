@@ -7,7 +7,7 @@ body {
   background: linear-gradient(180deg, #BBF4F7, #fff);
   color: #2C3131;
   font-family: 'Khula', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
 }
@@ -58,18 +58,12 @@ section {
 }
 
 .main {
-  /*display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;*/
-  /*margin-left: auto;
-  margin-right: auto;*/
+  align-items: center;
   text-align: center;
 }
-
-/*.contact {
-  min-height: 400px;
-}*/
 
 nav ul {
   display: flex;
