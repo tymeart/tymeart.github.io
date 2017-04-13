@@ -19,6 +19,7 @@ h1, h2, h3, p {
 h1 {
   font-family: 'Crimson Text', serif;
   font-size: 2.6em;
+  text-align: center;
 }
 
 h2 {
@@ -53,7 +54,7 @@ h2 a:hover {
 }
 
 section {
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .main {
@@ -61,11 +62,17 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  min-height: 400px;
 }
 
 nav ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 nav li {
@@ -115,6 +122,10 @@ nav li {
 }
 
 @media screen and (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+  }
+
   .projects .container li {
     align-items: baseline;
     flex-direction: row;
