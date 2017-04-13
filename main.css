@@ -54,6 +54,7 @@ h2 a:hover {
 }
 
 section {
+  margin-bottom: 80px;
   min-height: 400px;
 }
 
