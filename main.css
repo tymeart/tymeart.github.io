@@ -54,7 +54,7 @@ h2 a:hover {
 }
 
 section {
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .main {
@@ -66,9 +66,9 @@ section {
   margin-right: auto;
 }
 
-.contact {
+/*.contact {
   min-height: 400px;
-}
+}*/
 
 nav ul {
   display: flex;
