@@ -28,10 +28,20 @@ h2 {
   padding-bottom: 30px;
 }
 
+header p {
+  text-align: center;
+}
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+main li {
+  border: 1px solid crimson;
+  height: 250px;
+  width: 200px;
 }
 
 a {
@@ -58,25 +68,6 @@ section {
   min-height: 400px;
 }
 
-.main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column;
-}
-
-nav li {
-  margin: 10px;
-  padding: 20px;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -88,23 +79,34 @@ nav li {
 .projects .container ul {
   align-items: center;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .projects .container li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 40px;
+  width: 30%;
 }
 
 .project__title {
   font-size: 1.2em;
+  order: 2;
   text-align: center;
 }
 
 .project__description {
+  order: 2;
   padding-bottom: 20px;
+}
+
+.img {
+  background-color: #EEE;
+  height: 150px;
+  order: 1;
+  width: 100%;
 }
 
 .contact {
@@ -124,40 +126,11 @@ nav li {
 }
 
 @media screen and (min-width: 600px) {
-  nav ul {
-    flex-direction: row;
-  }
-
-  .projects .container li {
-    align-items: baseline;
-    flex-direction: row;
-  }
-
-  .project__title {
-    text-align: right;
-    width: 150px;
-  }
-
-  .project__description {
-    padding: 0 10px 20px 10px;
-    width: 340px;
-  }
-
   .social-media ul {
     flex-direction: row;
   }
 
   .social-media li {
     padding: 20px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .project__title {
-    width: 300px;
-  }
-
-  .project__description {
-    width: 550px;
   }
 }
