@@ -94,14 +94,16 @@ section {
 }
 
 .project__title {
-  font-size: 1.2em;
+  flex-grow: 1;
+  margin-top: 5px;
   order: 2;
   text-align: center;
 }
 
 .project__description {
+  flex-grow: 1;
   order: 2;
-  padding-bottom: 20px;
+  margin: 10px;
 }
 
 .img {
