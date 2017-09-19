@@ -93,6 +93,13 @@ section {
   width: 30%;
 }
 
+.projects .container li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
 .project__title {
   flex-grow: 1;
   margin-top: 5px;
@@ -101,9 +108,11 @@ section {
 }
 
 .project__description {
+  color: #2C3131;
   flex-grow: 1;
+  font-size: 1.15rem;
   order: 2;
-  margin: 10px;
+  margin: 15px;
 }
 
 .img {
