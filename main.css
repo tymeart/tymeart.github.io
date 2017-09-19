@@ -138,6 +138,10 @@ section {
   padding: 10px;
 }
 
+.social-media a {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 600px) {
   .social-media ul {
     flex-direction: row;
