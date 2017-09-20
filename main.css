@@ -111,8 +111,9 @@ section {
   color: #2C3131;
   flex-grow: 1;
   font-size: 1.15rem;
+  line-height: 2rem;
   order: 2;
-  margin: 15px;
+  margin: 20px;
 }
 
 .img {
