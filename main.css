@@ -65,11 +65,6 @@ h2 a:hover {
   text-decoration: none;
 }
 
-section {
-  margin-bottom: 80px;
-  min-height: 400px;
-}
-
 .container {
   display: flex;
   justify-content: center;
