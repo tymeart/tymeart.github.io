@@ -3,16 +3,14 @@
 }
 
 body {
-  /*background-color: #BBF4F7;
-  background: linear-gradient(180deg, #BBF4F7, #fff);*/
   color: #2C3131;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin: 0;
 }
 
@@ -29,6 +27,10 @@ h2 {
 
 header {
   margin: 50px 0;
+}
+
+header h2 {
+  text-transform: lowercase;
 }
 
 header p {
@@ -55,6 +57,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  text-decoration-skip: ink;
 }
 
 h2 a {
@@ -71,6 +74,11 @@ h2 a:hover {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
+}
+
+.projects h3 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .projects .container ul {
