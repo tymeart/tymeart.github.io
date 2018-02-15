@@ -103,6 +103,7 @@ h2 a:hover {
   line-height: 2rem;
   order: 2;
   margin: 20px;
+  text-align: center;
 }
 
 .img {
