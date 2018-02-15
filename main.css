@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   margin: 0;
-  padding: 20px 45px;
+  padding: 20px 45px 45px 45px;
 }
 
 h1, h2, h3, h4, p {
@@ -145,6 +145,6 @@ h2 a:hover {
 
 @media screen and (max-width: 600px) {
   body {
-    padding: 25px;
+    padding: 25px 25px 75px 25px;
   }
 }
