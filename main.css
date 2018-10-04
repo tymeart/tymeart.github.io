@@ -16,7 +16,7 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 4.5rem;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -50,7 +50,7 @@ main li {
 }
 
 a {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #78f0fa;
   text-decoration: none;
 }
@@ -69,6 +69,7 @@ h2 a:hover {
 }
 
 .projects h3 {
+  font-size: 1.4rem;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -83,29 +84,33 @@ h2 a:hover {
   justify-content: space-around; */
 }
 
-.projects .container li a {
+.projects .container li > div {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
+  padding: 15px;
 }
 
 .project__title {
   color: #78f0fa;
   flex-grow: 1;
+  font-size: 1.3rem;
   margin-top: 5px;
-  order: 2;
   text-align: center;
 }
 
 .project__description {
   color: #e9fbfa;
   flex-grow: 1;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 2rem;
-  order: 2;
   margin: 20px;
   text-align: center;
+}
+
+.projects a {
+  padding: 5px;
 }
 
 .img {
@@ -132,7 +137,6 @@ h2 a:hover {
 }
 
 .social-media a {
-  font-size: 1rem;
   text-transform: lowercase;
 }
 
