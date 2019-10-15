@@ -41,6 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
       liveLink: 'https://tymeart.github.io/calculator',
       repoLink: 'https://github.com/tymeart/calculator',
       img: 'images/calculator.png'
+    },
+    {
+      title: 'Tic Tac Toe',
+      description: 'A simple game of tic tac toe made in React.',
+      liveLink: 'https://tymeart.github.io/tictactoe',
+      repoLink: 'https://github.com/tymeart/tictactoe',
+      // img: 'images/tictactoe.png'
     }
   ]
 
